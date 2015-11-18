@@ -13,13 +13,19 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\DynamicProgramming">
+      <UniqueIdentifier>{6071b03b-089a-4b77-a9c1-7f4238ac3437}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DynamicProgramming.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\DynamicProgramming</Filter>
+    </ClCompile>
+    <ClCompile Include="ShortestPath.cpp">
+      <Filter>Source Files\DynamicProgramming</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
