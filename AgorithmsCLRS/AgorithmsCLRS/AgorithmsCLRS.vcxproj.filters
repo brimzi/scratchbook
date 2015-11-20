@@ -16,6 +16,9 @@
     <Filter Include="Source Files\DynamicProgramming">
       <UniqueIdentifier>{6071b03b-089a-4b77-a9c1-7f4238ac3437}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Topcoder">
+      <UniqueIdentifier>{d37f97ae-acac-46e5-8f57-0c5ea8d7a78e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -26,6 +29,12 @@
     </ClCompile>
     <ClCompile Include="ShortestPath.cpp">
       <Filter>Source Files\DynamicProgramming</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowerGarden.cpp">
+      <Filter>Source Files\Topcoder</Filter>
+    </ClCompile>
+    <ClCompile Include="AvoidRoads.cpp">
+      <Filter>Source Files\Topcoder</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

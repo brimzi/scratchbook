@@ -146,7 +146,9 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AvoidRoads.cpp" />
     <ClCompile Include="DynamicProgramming.cpp" />
+    <ClCompile Include="FlowerGarden.cpp" />
     <ClCompile Include="ShortestPath.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
