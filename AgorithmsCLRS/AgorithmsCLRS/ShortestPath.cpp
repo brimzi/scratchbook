@@ -125,7 +125,8 @@ private:
 		visited[root] = true;
 
 		int32_t w{ 0 };
-		for(int32_t i:g.getVertex(root).neighbours)
+		
+		for (int32_t i = 0; i < g.getVertex(root).neighbours->size(); i++)
 		{
 			int32_t q = dfs(g, i, visited, res, pathcost);
 
